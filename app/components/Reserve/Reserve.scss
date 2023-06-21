@@ -1,0 +1,61 @@
+.reserve {
+  width: 100%;
+  flex-direction: row;
+  background-color: white;
+  justify-content: center;
+  margin: 3rem auto 0 auto;
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  h3 {
+    margin: 0;
+  }
+  input {
+    border: solid black 1px;
+    width: 100%;
+  }
+  button {
+    height: 3rem;
+  }
+}
+.tiles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  row-gap: 3rem;
+}
+
+.icon {
+  height: 1.5rem;
+}
+.titleContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+.date-picker-div {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 756px) {
+  .reserve {
+    h1 {
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+  .tiles {
+    display: grid;
+    grid-template-columns: 33.3333% 33.3333% 33.3333%;
+    margin: 0 0.8rem 0 0.8rem;
+    row-gap: 6rem;
+    padding: 0 2rem 0 0.3rem;
+  }
+}
+// 375 768 992 1200

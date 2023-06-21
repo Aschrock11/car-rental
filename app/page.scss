@@ -1,0 +1,9 @@
+.max-width-container {
+  max-width: 1200px;
+  padding: 0 0.75rem;
+}
+@media screen and (min-width: 992px) {
+  .max-width-container {
+    padding: 0 2rem;
+  }
+}
