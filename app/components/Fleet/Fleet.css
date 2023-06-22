@@ -1,4 +1,5 @@
 .fleet-main-container {
+  scroll-margin-top: 60px;
   max-width: 1200px;
   display: flex;
   flex-direction: column;
