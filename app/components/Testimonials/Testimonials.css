@@ -1,4 +1,12 @@
-.testimontials-main-container {
+.testimonials-main-container {
   display: flex;
+  gap: 3rem;
   flex-direction: column;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }/*# sourceMappingURL=Testimonials.css.map */
