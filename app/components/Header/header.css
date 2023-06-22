@@ -31,6 +31,12 @@ html {
   overflow: hidden;
 }
 
+@media screen and (min-width: 992px) {
+  .hidden {
+    display: none;
+  }
+}
+
 .drawer {
   position: absolute;
   width: 100%;

@@ -46,10 +46,7 @@
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  width: 100%;
-  height: 600px;
-  background-image: url(https://img.freepik.com/free-photo/cement-footpath-skyline-space-building_1112-1059.jpg?w=1800&t=st=1685637004~exp=1685637604~hmac=ab274632fdc66436f8467e7a1059717c7e3dbfe3e7ee582084f5889fb0328765);
-  background-repeat: no-repeat;
+  object-fit: contain;
 }
 .right-container .img {
   object-fit: contain;
@@ -58,7 +55,7 @@
   z-index: 1;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .main {
     padding-top: 10rem;
     flex-direction: row;

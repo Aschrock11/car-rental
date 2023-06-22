@@ -22,15 +22,7 @@ const LandingPage = () => {
         </div>
       </div>
       <div className='right-container'>
-        {/* <Image
-          className='img'
-          alt={'image of car'}
-          src={
-            'https://www.pngall.com/wp-content/uploads/2016/07/Car-Download-PNG.png'
-          }
-          width={1274}
-          height={755}
-        /> */}
+        <img src='../clean-car-rental.jpeg' alt='' />
       </div>
     </div>
   );

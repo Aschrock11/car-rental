@@ -27,6 +27,11 @@ button {
 html {
   overflow: hidden;
 }
+.hidden {
+  @media screen and (min-width: 992px) {
+    display: none;
+  }
+}
 .drawer {
   position: absolute;
   width: 100%;

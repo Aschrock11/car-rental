@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <div className='header'>
       <div className='header-content'>
-        <div>
+        <div className='hidden'>
           <XMarkIcon
             className={`${!open ? 'XMarkIcon' : 'XMarkIconN'}`}
             onClick={() => setOpen(false)}
