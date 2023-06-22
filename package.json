@@ -25,5 +25,8 @@
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^2.1.4",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/react-datepicker": "^4.11.2"
   }
 }

@@ -8,7 +8,7 @@ const SelectDropdown = ({
   title,
   options,
 }: {
-  calendar: any;
+  calendar?: any;
   icon: any;
   title: any;
   options: any;

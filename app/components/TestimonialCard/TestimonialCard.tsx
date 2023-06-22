@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TestimonialCard = ({ img }) => {
+const TestimonialCard = ({ img }: { img: any }) => {
   return (
     <div>
       <div></div>
