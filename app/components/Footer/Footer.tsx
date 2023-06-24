@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <div>
-      in grid col 4<div></div>
+      <div></div>
       <div></div>
       <div></div>
       <div>

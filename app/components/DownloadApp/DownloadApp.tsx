@@ -1,17 +1,24 @@
 import React from 'react';
+import './DownloadApp.scss';
 
 const DownloadApp = () => {
   return (
-    <div>
-      <div>
-        <h1></h1>
-        <p></p>
-        <div>
-          <img src='' alt='' />
-          <img src='' alt='' />
+    <div className='download-main-container'>
+      <div className='download-left-container'>
+        <h1>Download our app to get the most out of it</h1>
+        <p>
+          With our app, you'll enjoy seamless navigation, personalized
+          recommendations, exclusive offers, and real-time updates right on your
+          mobile device. Stay connected with us wherever you go. Download our
+          app now and take your interaction with us to the next level!"
+        </p>
+        <div className='app-buttons'>
+          <img src='./badges.jpeg' alt='' />
         </div>
       </div>
-      <div>image</div>
+      <div className='download-right-container'>
+        <img src='./phone.jpg' alt='' />
+      </div>
     </div>
   );
 };
