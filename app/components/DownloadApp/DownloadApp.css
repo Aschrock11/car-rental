@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.download-main-container {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .download-main-container {
+    flex-direction: row;
+    gap: 3rem;
+  }
+  .download-main-container .download-left-container {
+    text-align: left;
+    width: 50%;
+  }
+  .download-main-container .download-right-container {
+    width: 50%;
+  }
+}
+.download-left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.app-buttons {
+  display: flex;
+}
+.app-buttons img {
+  width: 150px;
+  border-color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .app-buttons {
+    justify-content: center;
+  }
+  .app-buttons img {
+    width: 200px;
+  }
+}/*# sourceMappingURL=DownloadApp.css.map */
