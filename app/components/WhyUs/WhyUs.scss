@@ -1,4 +1,6 @@
 .whyus-main-container {
+  scroll-margin-top: -220px;
+
   text-align: center;
 }
 .bottom-right {
@@ -39,9 +41,8 @@
     width: 50%;
     justify-content: center;
     text-align: start;
-    button {
-      width: 30%;
-      height: 3rem;
+    .find-details {
+      width: 100%;
     }
     h1 {
       margin-bottom: 2rem;

@@ -16,6 +16,7 @@ const Faq = function () {
           return <FaqItem question={item.question} answer={item.answer} />;
         })}
       </div>
+      <img className='red-car' src='./redcar.png' alt='' />
     </div>
   );
 };

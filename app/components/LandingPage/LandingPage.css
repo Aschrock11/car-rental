@@ -1,10 +1,10 @@
 .main {
-  padding-top: 3rem;
   width: 100%;
   display: flex;
   flex-direction: column;
   background-color: white;
   gap: 4rem;
+  scroll-margin-top: 100px;
 }
 
 .left-container {
@@ -12,12 +12,8 @@
   align-items: center;
   flex-direction: column;
 }
-.left-container h1 {
-  font-size: medium;
-}
 .left-container h2 {
   text-align: center;
-  font-size: 30px;
   text-overflow: ellipsis;
   max-width: 80%;
 }
@@ -38,8 +34,33 @@
 }
 .button-div button {
   border-radius: 3px;
-  height: 4rem;
+  height: 5rem;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.button-div button a {
+  color: white;
+}
+.button-div .hero-icons {
+  width: 2rem;
+}
+.button-div .book-a-ride:hover {
+  background: linear-gradient(#ff3e15, #f36444);
+}
+.button-div .learn-now {
+  background-color: black;
+  color: white;
+  box-shadow: 0px 11px 19px -5px #939190;
+  text-shadow: #939190;
+}
+.button-div .learn-now button:hover {
+  background-color: #3a3a39;
+}
+.button-div .learn-now:hover {
+  background-color: #3a3a39;
 }
 
 .right-container {
@@ -57,7 +78,7 @@
 
 @media screen and (min-width: 992px) {
   .main {
-    padding-top: 10rem;
+    padding-top: 5rem;
     flex-direction: row;
   }
   .left-container {
@@ -77,6 +98,12 @@
   }
   .left-container h2 {
     text-align: left;
+  }
+  .left-container span {
+    color: #ff3e15;
+  }
+  .left-container button {
+    width: 15rem;
   }
   .right-container {
     width: 50%;

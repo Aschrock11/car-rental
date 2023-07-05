@@ -1,22 +1,20 @@
 .main {
-  padding-top: 3rem;
   width: 100%;
   display: flex;
   flex-direction: column;
   background-color: white;
   gap: 4rem;
+  scroll-margin-top: 100px;
 }
 
 .left-container {
   display: flex;
   align-items: center;
   flex-direction: column;
-  h1 {
-    font-size: medium;
-  }
+
   h2 {
     text-align: center;
-    font-size: 30px;
+
     text-overflow: ellipsis;
     max-width: 80%;
   }
@@ -34,10 +32,38 @@
   align-items: center;
   width: 100%;
   gap: 1rem;
+
   button {
     border-radius: 3px;
-    height: 4rem;
+    height: 5rem;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    a {
+      color: white;
+    }
+  }
+
+  .hero-icons {
+    width: 2rem;
+  }
+  .book-a-ride:hover {
+    background: linear-gradient(#ff3e15, #f36444);
+  }
+
+  .learn-now {
+    background-color: black;
+    color: white;
+    box-shadow: 0px 11px 19px -5px #939190;
+    text-shadow: #939190;
+    button:hover {
+      background-color: #3a3a39;
+    }
+  }
+  .learn-now:hover {
+    background-color: #3a3a39;
   }
 }
 .right-container {
@@ -58,7 +84,7 @@
 
 @media screen and (min-width: 992px) {
   .main {
-    padding-top: 10rem;
+    padding-top: 5rem;
     flex-direction: row;
   }
   .left-container {
@@ -77,6 +103,12 @@
     }
     h2 {
       text-align: left;
+    }
+    span {
+      color: #ff3e15;
+    }
+    button {
+      width: 15rem;
     }
   }
   .right-container {

@@ -1,9 +1,13 @@
+//#FF3E15
+// TODO: make hamburger icon bigger and make logo smaller on mobile screen - carlos
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 .faq-container {
+  margin-top: 5rem;
   text-align: center;
 }
 .faq-h3 {
@@ -23,7 +27,7 @@
 }
 .faq-question {
   color: white;
-  background-color: #eb6e34;
+  background-color: #ff3e15;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -36,11 +40,24 @@
   overflow: hidden;
   max-height: 0;
   transition: all 1s ease;
+  text-align: left;
 }
 .faq-answer-div-active {
   max-height: 300px;
   transition: all 1.4s ease-in-out;
   overflow: hidden;
+  text-align: left;
+}
+.red-car {
+  display: none;
+  position: relative;
+  width: 600px;
+  left: 900px;
+  bottom: 350px;
+  background-color: transparent;
+
+  @media screen and (min-width: 768px) {
+  }
 }
 
 // TODO: style the faq with transition somehow

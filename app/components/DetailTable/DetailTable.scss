@@ -19,6 +19,16 @@
     align-items: center;
     justify-content: center;
   }
+  button {
+    width: 100%;
+    border-radius: 2px;
+
+    border-top: 0px;
+    text-decoration: none;
+    a {
+      color: white;
+    }
+  }
 }
 .button-table-div {
   height: 100%;
@@ -28,24 +38,9 @@ img {
   width: 100%;
   height: auto;
 }
-button {
-  width: 100%;
-  border-radius: 2px;
-  border: 1px solid black;
-  border-top: 0px;
-  text-decoration: none;
-  a {
-    color: white;
-  }
-}
+
 @media screen and (min-width: 768px) {
   .detail-table-container {
     grid-template-columns: 7rem 7rem;
-  }
-  h1 {
-    font-size: 2rem;
-  }
-  h2 {
-    font-size: 1.5rem;
   }
 }

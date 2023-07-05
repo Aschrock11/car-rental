@@ -38,7 +38,7 @@ const Reserve = () => {
     'San Diego, CA',
   ];
   return (
-    <div id='Reserve' className='reserve'>
+    <div id='Reserve Now' className='reserve'>
       <h1>Book a car</h1>
       <div className='tiles'>
         <SelectDropdown

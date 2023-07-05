@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 .download-main-container {
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,12 +27,8 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  h1 {
-    font-size: 3rem;
-  }
 }
-.download-right-container {
-}
+
 .app-buttons {
   display: flex;
   img {

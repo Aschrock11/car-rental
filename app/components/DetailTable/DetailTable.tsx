@@ -11,6 +11,7 @@ const DetailTable = ({ active }: { active: any }) => {
       ac: 'Yes',
       transmission: 'Automatic',
       fuel: 'Hybrid',
+      number: '$35',
     },
     {
       make: 'Audi',
@@ -20,6 +21,7 @@ const DetailTable = ({ active }: { active: any }) => {
       ac: 'Yes',
       transmission: 'Automatic',
       fuel: 'Unleaded',
+      number: '$55',
     },
     {
       make: 'VW',
@@ -29,6 +31,7 @@ const DetailTable = ({ active }: { active: any }) => {
       ac: 'Yes',
       transmission: 'Manual',
       fuel: 'Unleaded',
+      number: '$35',
     },
     {
       make: 'VW',
@@ -38,6 +41,7 @@ const DetailTable = ({ active }: { active: any }) => {
       ac: 'Yes',
       transmission: 'Automatic',
       fuel: 'Unleaded',
+      number: '$45',
     },
     {
       make: 'BMW',
@@ -47,6 +51,7 @@ const DetailTable = ({ active }: { active: any }) => {
       ac: 'Yes',
       transmission: 'Automatic',
       fuel: 'Premium',
+      number: '$55',
     },
     {
       make: 'Mercedes-Benz',
@@ -56,13 +61,14 @@ const DetailTable = ({ active }: { active: any }) => {
       ac: 'Yes',
       transmission: 'Automatic',
       fuel: 'Premium',
+      number: '$65',
     },
   ];
 
   return (
     <div className='button-table-div'>
       <div className='title-div'>
-        <h1>$35 /</h1>
+        <h1>{`${carDetails[active].number} /`}</h1>
         <h2>rent per day</h2>
       </div>
       <div className='detail-table-container'>
@@ -81,8 +87,8 @@ const DetailTable = ({ active }: { active: any }) => {
         <div>Fuel</div>
         <div>{carDetails[active].fuel}</div>
       </div>
-      <button>
-        <a href='#Reserve'>RESERVE NOW</a>
+      <button className='fleet-reserve-now-button'>
+        <a href='#Reserve Now'>RESERVE NOW</a>
       </button>
     </div>
   );

@@ -3,7 +3,7 @@ import '../WhyUs/WhyUs.scss';
 
 const WhyUs = () => {
   return (
-    <div className='whyus-main-container'>
+    <div className='whyus-main-container' id='Why Us'>
       <img src='./rentalcar.png' alt='' />
       <div>
         <div className='bottom'>
@@ -18,7 +18,7 @@ const WhyUs = () => {
               you the ultimate renting experience, so dont miss out on you
               chance to save big.
             </p>
-            <button>Find Details</button>
+            <button className='find-details'>Find Details</button>
           </div>
           <div className='bottom-right'>
             <div className='why-card first-card'>

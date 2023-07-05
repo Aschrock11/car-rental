@@ -1,5 +1,6 @@
 'use client';
 import React, { useState } from 'react';
+import { XMarkIcon } from '@heroicons/react/24/solid';
 
 const DrawerComp = ({
   open,
@@ -13,12 +14,16 @@ const DrawerComp = ({
     'About',
     'Vehicles',
     'Testimonials',
-    'Our Team',
-    'Contact',
+    'Reserve Now',
+    'Why Us',
   ];
 
   return (
     <div className={`drawer ${open && 'appear'}`}>
+      <XMarkIcon
+        className={`${!open ? 'XMarkIcon' : 'XMarkIconN'}`}
+        onClick={() => drawerHandler()}
+      />
       <ul className='drawerList'>
         {pages.map((page) => (
           <li key={page} onClick={() => drawerHandler()}>

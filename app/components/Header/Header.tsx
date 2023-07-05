@@ -4,9 +4,8 @@ import React, { useState } from 'react';
 import '../Header/header.scss';
 import { Bars3Icon } from '@heroicons/react/24/solid';
 import DrawerComp from '../SliderComp/DrawerComp';
-import { XMarkIcon } from '@heroicons/react/24/solid';
 
-const pages = ['Home', 'Vehicles', 'Testimonials', 'Our Team', 'Contact'];
+const pages = ['Home', 'Reserve Now', 'Vehicles', 'Why Us', 'Testimonials'];
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -18,13 +17,14 @@ const Header = () => {
     <div className='header'>
       <div className='header-content'>
         <div className='hidden'>
-          <XMarkIcon
-            className={`${!open ? 'XMarkIcon' : 'XMarkIconN'}`}
-            onClick={() => setOpen(false)}
-          />
           <DrawerComp open={open} drawerHandler={drawerHandler} />
         </div>
-        <div className='logo'>Logo</div>
+        <div className='logo'>
+          <img
+            src='./rent-a-ride-logo-zip-file/png/logo-no-background.png'
+            alt=''
+          />
+        </div>
         <Bars3Icon className='barsIcon' onClick={() => setOpen(true)} />
         <div className='tabs'>
           {pages.map((page) => (
@@ -34,7 +34,7 @@ const Header = () => {
           ))}
         </div>
         <div className='signup'>
-          <button>Sign Up</button>
+          <li>Sign Up</li>
           <button>Login</button>
         </div>
       </div>

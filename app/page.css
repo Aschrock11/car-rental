@@ -7,4 +7,25 @@
   .max-width-container {
     padding: 0 2rem;
   }
+}
+button {
+  border-width: 0px;
+  color: #fff;
+  border-color: #ff3e15;
+  font-weight: bold;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0px 11px 19px -5px #f36444;
+  text-shadow: 0px 1px 0px #f36444;
+  background: #ff3e15;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
 }/*# sourceMappingURL=page.css.map */

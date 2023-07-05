@@ -1,4 +1,6 @@
 .reserve {
+  scroll-margin-top: 140px;
+
   width: 100%;
   flex-direction: row;
   background-color: white;
@@ -19,6 +21,9 @@
   }
   button {
     height: 3rem;
+  }
+  button:hover {
+    background: linear-gradient(#ff3e15, #f36444);
   }
 }
 .tiles {
