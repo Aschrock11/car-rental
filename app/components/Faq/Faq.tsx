@@ -13,7 +13,13 @@ const Faq = function () {
       </h3>
       <div className='question-answer-container'>
         {questionAnswerList.map((item) => {
-          return <FaqItem question={item.question} answer={item.answer} />;
+          return (
+            <FaqItem
+              key={item.question}
+              question={item.question}
+              answer={item.answer}
+            />
+          );
         })}
       </div>
       <img className='red-car' src='./redcar.png' alt='' />
