@@ -1,5 +1,5 @@
 import FaqItem from './FaqItem';
-import { questionAnswerList } from './faq-content';
+import { questionAnswerList } from './faq-content.js';
 
 const Faq = function () {
   console.log(questionAnswerList);
