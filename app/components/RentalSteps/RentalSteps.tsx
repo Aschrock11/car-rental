@@ -6,7 +6,7 @@ const RentalSteps = () => {
   return (
     <div id='rental-steps' className='rental-steps-container'>
       <div className='steps-title-div'>
-        <h1>Plan your trip now</h1>
+        <h1 id='plan'>Plan your trip now</h1>
         <h2>Quick and easy car rental</h2>
       </div>
       <div className='card-steps'>

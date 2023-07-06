@@ -20,7 +20,7 @@ const LandingPage = () => {
             <CheckCircleIcon className='hero-icons' />
           </button>
           <button className='learn-now'>
-            <a href='#rental-steps'>Learn More</a>
+            <a href='#plan'>Learn More</a>
             <ChevronRightIcon className='hero-icons' />
           </button>
         </div>

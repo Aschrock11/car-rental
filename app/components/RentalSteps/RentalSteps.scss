@@ -1,9 +1,13 @@
+#plan {
+  scroll-margin-top: 100px;
+}
 .rental-steps-container {
   max-width: 1200px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   padding: 3rem 0 0 0;
+
   img {
     height: 3rem;
   }
@@ -39,6 +43,9 @@
   margin-bottom: 2rem;
 }
 @media screen and (min-width: 768px) {
+  #plan {
+    scroll-margin-top: 200px;
+  }
   .card-steps {
     padding: 0 2rem 0 2rem;
     flex-direction: row;

@@ -53,4 +53,9 @@
   .app-buttons img {
     width: 200px;
   }
+}
+@media screen and (max-width: 400px) {
+  .download-right-container img {
+    width: 200px;
+  }
 }/*# sourceMappingURL=DownloadApp.css.map */
