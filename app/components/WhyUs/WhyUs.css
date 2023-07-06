@@ -1,6 +1,9 @@
 .whyus-main-container {
-  scroll-margin-top: -220px;
+  scroll-margin-top: 85px;
   text-align: center;
+}
+.whyus-main-container h3 {
+  font-size: 3rem;
 }
 
 .bottom-right {
@@ -8,6 +11,11 @@
   flex-direction: column;
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+.bottom-left button {
+  height: 3rem;
+  width: 100%;
 }
 
 .why-img-div {
@@ -30,6 +38,12 @@
 }
 
 @media screen and (min-width: 768px) {
+  .whyus-main-container {
+    scroll-margin-top: -220px;
+  }
+  .whyus-main-container h1 {
+    margin-bottom: 0;
+  }
   .bottom {
     display: flex;
     gap: 2rem;
@@ -44,8 +58,9 @@
     justify-content: center;
     text-align: start;
   }
-  .bottom-left .find-details {
-    width: 100%;
+  .bottom-left button {
+    width: 10rem;
+    height: 3rem;
   }
   .bottom-left h1 {
     margin-bottom: 2rem;

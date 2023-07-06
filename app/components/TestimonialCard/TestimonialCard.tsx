@@ -29,7 +29,7 @@ const TestimonialCard = ({
           </div>
         </div>
         <div>
-          <ImQuotesRight size='2.5rem' color='orange' />
+          <ImQuotesRight size='2.5rem' color='#ff3e15' />
         </div>
       </div>
     </div>

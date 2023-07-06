@@ -1,5 +1,4 @@
 'use client';
-import Link from 'next/link';
 import React, { useState } from 'react';
 import '../Header/header.scss';
 import { Bars3Icon } from '@heroicons/react/24/solid';

@@ -68,8 +68,8 @@ const DetailTable = ({ active }: { active: any }) => {
   return (
     <div className='button-table-div'>
       <div className='title-div'>
-        <h1>{`${carDetails[active].number} /`}</h1>
-        <h2>rent per day</h2>
+        <p>{`${carDetails[active].number} /`}</p>
+        <p>rent per day</p>
       </div>
       <div className='detail-table-container'>
         <div>Model</div>

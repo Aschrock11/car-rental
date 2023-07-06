@@ -1,3 +1,4 @@
+//TODO change styling on footer button and input, underline email and phone number change tabs on mobile hamburger
 .max-width-container {
   max-width: 1200px;
   padding: 0 0.75rem;
@@ -7,6 +8,13 @@
     padding: 0 2rem;
   }
 }
+h1 {
+  font-size: 1.75rem;
+}
+h2 {
+  font-size: 3rem;
+}
+
 button {
   border-width: 0px;
   color: #fff;

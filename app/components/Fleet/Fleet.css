@@ -10,7 +10,8 @@
   margin: 0;
 }
 .fleet-main-container h2 {
-  margin: 0;
+  text-align: center;
+  margin-top: 22px;
 }
 .fleet-main-container p {
   text-align: center;
@@ -69,6 +70,7 @@
 }
 
 .fleet-reserve-now-button {
+  margin-top: 1rem;
   width: 100%;
   height: 3rem;
   border-radius: 0;
@@ -78,6 +80,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .fleet-reserve-now-button {
+    margin-top: 0;
+  }
   .fleet-content-containers {
     display: flex;
     flex-direction: row;

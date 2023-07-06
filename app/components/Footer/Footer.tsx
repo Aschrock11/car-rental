@@ -14,8 +14,8 @@ const Footer = () => {
             the perfect car for you.
           </p>
 
-          <li>614-735-2785</li>
-          <li>rentnow@carrental.com</li>
+          <li className='contact-info'>614-735-2785</li>
+          <li className='contact-info'>rentnow@carrental.com</li>
         </div>
         <div className='footer-col'>
           <li className='first-li'>

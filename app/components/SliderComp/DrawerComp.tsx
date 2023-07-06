@@ -9,14 +9,7 @@ const DrawerComp = ({
   open: boolean;
   drawerHandler: () => void;
 }) => {
-  const pages = [
-    'Home',
-    'About',
-    'Vehicles',
-    'Testimonials',
-    'Reserve Now',
-    'Why Us',
-  ];
+  const pages = ['Home', 'Reserve Now', 'Vehicles', 'Why Us', 'Testimonials'];
 
   return (
     <div className={`drawer ${open && 'appear'}`}>

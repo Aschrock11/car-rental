@@ -19,6 +19,7 @@
   align-items: center;
   flex-direction: column;
   max-width: 600px;
+  margin-bottom: 1rem;
 }
 .question-answer-container {
   display: flex;
@@ -56,7 +57,7 @@
   bottom: 350px;
   background-color: transparent;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 768px) {
   }
 }
 

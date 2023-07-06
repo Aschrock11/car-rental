@@ -11,6 +11,9 @@
 .rental-steps-container h1 {
   margin-bottom: 0;
 }
+.rental-steps-container h2 {
+  text-align: center;
+}
 
 .card-steps {
   display: flex;
@@ -44,4 +47,4 @@
     padding: 0 2rem 0 2rem;
     flex-direction: row;
   }
-} /*# sourceMappingURL=RentalSteps.css.map */
+}/*# sourceMappingURL=RentalSteps.css.map */

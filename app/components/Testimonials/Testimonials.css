@@ -1,8 +1,11 @@
 .testimonials-main-container {
-  scroll-margin-top: 165px;
+  scroll-margin-top: 100px;
   display: flex;
   gap: 3rem;
   flex-direction: column;
+}
+.testimonials-main-container h3 {
+  font-size: 3rem;
 }
 
 .top {
@@ -10,4 +13,33 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
+}
+
+.left {
+  background-color: #f0eeee;
+  color: black;
+  padding: 2rem 1.5rem;
+}
+
+.right {
+  background-color: #f0eeee;
+  color: black;
+  padding: 2rem 1.5rem;
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonials-main-container {
+    scroll-margin-top: 165px;
+  }
+  .testimonials-main-container h1 {
+    margin-bottom: 0;
+  }
+  .right {
+    width: 50%;
+    margin-top: 0;
+  }
+  .left {
+    width: 50%;
+  }
 }/*# sourceMappingURL=Testimonials.css.map */
