@@ -29,6 +29,9 @@
   justify-items: center;
   align-content: space-evenly;
   align-items: center;
+  button {
+    height: 2rem;
+  }
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
@@ -50,7 +53,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  h2 {
+    margin-bottom: 1rem;
+  }
 }
 .image-detail-div {
   display: flex;
@@ -75,6 +80,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .fleet-main-container {
+    scroll-margin-top: 140px;
+  }
   .fleet-reserve-now-button {
     margin-top: 0;
   }

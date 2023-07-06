@@ -4,6 +4,10 @@
 }
 .whyus-main-container h3 {
   font-size: 3rem;
+  margin: 22px 0 1rem 0;
+}
+.whyus-main-container p {
+  margin-bottom: 1rem;
 }
 
 .bottom-right {

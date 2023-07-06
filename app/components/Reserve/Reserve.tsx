@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 import '../Reserve/Reserve.scss';
 import SelectDropdown from '../SelectDropdown/SelectDropdown';
-import 'semantic-ui-css/semantic.min.css';
 import { CalendarDaysIcon, MapPinIcon } from '@heroicons/react/24/solid';
 import 'react-datepicker/dist/react-datepicker.css';
 import DatePicker from 'react-datepicker';

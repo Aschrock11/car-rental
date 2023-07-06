@@ -1,4 +1,5 @@
-//TODO change styling on footer button and input, underline email and phone number change tabs on mobile hamburger
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700&display=swap');
+
 .max-width-container {
   max-width: 1200px;
   padding: 0 0.75rem;
@@ -12,6 +13,7 @@ h1 {
   font-size: 1.75rem;
 }
 h2 {
+  margin-top: 22px;
   font-size: 3rem;
 }
 

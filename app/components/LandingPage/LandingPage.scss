@@ -20,13 +20,14 @@
 
   h2 {
     text-align: center;
-
     text-overflow: ellipsis;
     max-width: 80%;
+    margin-bottom: 1rem;
   }
   p {
     text-align: center;
     max-width: 70%;
+    margin-bottom: 1rem;
   }
   a {
     color: white;
@@ -97,20 +98,21 @@
     align-items: flex-start;
     gap: 1rem;
     width: 50%;
-    font-size: x-large;
     text-align: left;
     p {
       margin: 0;
       text-align: left;
-      font-size: smaller;
+      font-size: 1.25rem;
       font-weight: 300;
     }
     h2 {
+      font-size: 3rem;
       text-align: left;
     }
 
     button {
       width: 15rem;
+      font-size: 1.5rem;
     }
   }
   .right-container {

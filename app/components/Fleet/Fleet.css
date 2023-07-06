@@ -31,6 +31,9 @@
   align-content: space-evenly;
   align-items: center;
 }
+.fleet-buttons button {
+  height: 2rem;
+}
 @media screen and (min-width: 768px) {
   .fleet-buttons {
     flex-direction: row;
@@ -51,7 +54,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+}
+.fleet-title-div h2 {
+  margin-bottom: 1rem;
 }
 
 .image-detail-div {
@@ -80,6 +85,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .fleet-main-container {
+    scroll-margin-top: 140px;
+  }
   .fleet-reserve-now-button {
     margin-top: 0;
   }
